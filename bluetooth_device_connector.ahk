@@ -1,6 +1,6 @@
 ﻿Menu, Tray, Icon, C:\WINDOWS\system32\netshell.dll, 104 ; Set the tray icon to a network-related icon from system resources
 
-deviceName := "AirPods Pro" ; Define the name of the Bluetooth device to connect to
+deviceName := "WH-CH720N" ; Define the name of the Bluetooth device to connect to
 
 ; Dynamically loads the Bluetooth Control Panel library to use its functions
 DllCall("LoadLibrary", "str", "Bthprops.cpl", "ptr")
